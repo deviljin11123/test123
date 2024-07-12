@@ -32,9 +32,9 @@ drinks = [
 ]
 addedDrinks = []
 
-def addDrink(drink_id):
+def addDrink(drinkId):
     for drink in drinks:
-        if drink['id'] == drink_id:
+        if drink['id'] == drinkId:
             addedDrinks.append(drink)
             return True
     return False
